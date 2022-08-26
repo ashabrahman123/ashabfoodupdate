@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ashabfoodupdate/static/css/main.21c25eab.css",
+    "main.js": "/ashabfoodupdate/static/js/main.94928e8b.js",
+    "static/media/Food.jpg": "/ashabfoodupdate/static/media/Food.3887db3ba88c132b5b6c.jpg",
+    "index.html": "/ashabfoodupdate/index.html",
+    "main.21c25eab.css.map": "/ashabfoodupdate/static/css/main.21c25eab.css.map",
+    "main.94928e8b.js.map": "/ashabfoodupdate/static/js/main.94928e8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21c25eab.css",
+    "static/js/main.94928e8b.js"
+  ]
+}
