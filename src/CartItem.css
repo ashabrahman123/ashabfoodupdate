@@ -1,0 +1,525 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+/* .mainashab2{
+    display: grid;
+    grid-template-columns: 1500px ;
+} */
+
+
+.error{
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
+    width:500px;
+    height:120px;
+    background-color: rgb(235, 233, 233);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 13px;
+    margin-left: 550px;
+    padding-top: 20px;
+    /* overflow-y: scroll; */
+
+}
+.error .mapname{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error .mapprice{
+    color: #9b1d43;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -10px;
+    font-size: 28px;
+}
+.error .mapquantity{
+    margin-left: 18px;
+    font-size: 18px;
+    margin-top: -7px;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+.error button{
+    margin-top: -7px;
+    margin-left:300px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.error button:hover{
+    border: 5px solid #4d0000;
+    color: pink;
+}
+
+ .mapchild1{
+    display: flex;
+}
+
+.back{
+    background: rgba(0, 0, 0, 0.75);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.prod1, .prod2, .prod3,.prod4{
+    display: flex;
+}
+
+.btn1:hover , .btn2:hover, .btn3:hover, .btn4:hover{
+    border: 5px solid #4d0000;
+    color: pink;
+    /* width: 120px; */
+}
+
+.image img{
+    width: 100%;
+    height: 500px;
+}
+
+.FoodPara{
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+    font-size: 30px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    
+}
+
+.mainprods{
+    margin-left: 400px;
+    margin-top: 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 830px;
+    padding-left: 25px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.pricecolor{
+    color: #9b1d43;
+}
+
+.prod1Child2,.prod2Child2,.prod3Child2, .prod4Child2
+{
+    padding-left: 500px;
+    margin-top: 20px;
+}
+
+.inp1{
+    margin-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn1{
+    margin-left: 100px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* .btn1:hover{
+    cursor: pointer;
+    background-color: black;
+} */
+
+.inp2{
+    margin-left: 135px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn2{
+    margin-left:135px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.inp3{
+    margin-left: 155px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn3{
+    margin-left:155px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.inp4{
+    margin-left: 135px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn4{
+    margin-left:135px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn4 button:hover{
+    background-color: bisque;
+}
+
+.heading{
+    display: flex;
+    background-color:#9b1d43 ;
+    position: fixed;
+    width: 100%;
+    
+}
+/* 
+.heading:hover{
+    background-color: aquamarine;
+} */
+.heading h1{
+    color: white;
+    margin-left: 50px;
+}
+
+.heading button{
+    margin-left: 900px;
+    margin-top: 25px;
+    height: 50px;
+    width: 180px;
+    background-color:  #4d0000;
+    border: 2px solid #4d0000;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.heading button:hover{
+    color: pink;
+    border: 6px solid #ecaec0;
+}
+
+.TOTAL{
+    width:500px;
+    height:200px;
+    background-color: rgb(235, 233, 233);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 13px;
+    margin-left: 550px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; 
+}
+
+.TOTAL button{
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: #9b1d43;
+    width: 90px;
+    height: 35px;
+    border: 1px solid #9b1d43;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.TOTAL button:hover{
+    border: 5px solid #4d0000;
+    color: pink;
+}
+
+
+.order{
+    background-color: #9b1d43;
+    width: 100px;
+    border:  2px solid #9b1d43;
+    border-radius: 10px;
+    margin-left: 10px;
+    justify-content: space-around;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    cursor: pointer;
+   
+}
+
+hr{
+    background-color: #9b1d43;
+    height: 3px;
+}
+
+
+
+@media (max-width:998px)
+{
+    /* .mainashab2{
+        display: grid;
+        grid-template-columns: -305000px ;
+    } */
+    body{
+        width: 100%;
+    }
+.image img{
+    width: 1300px;
+    height: 900px;
+    
+}
+.heading h1{
+     font-size: 80px;
+}
+
+.heading button{
+    margin-left: 350px;
+    font-size: 110px;
+    margin-top: 60px;
+    height: 120px;
+    width: 340px;
+    margin-bottom: 40px;
+}
+
+.order{
+    width: 150px;
+    margin-left: 10px;
+   padding-inline-start: 20px;
+   padding-inline-end: 20px;
+}
+.FoodPara{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mainprods
+{
+    margin-left: 70px;
+    width: 1100px;
+}
+
+.prod1Child1 h2{
+    font-size: 80px;
+}
+
+.prod1Child1 .pricecolor{
+    font-size: 82px;
+}
+
+.prod1Child1 p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.prod2Child1 h2{
+    font-size: 80px;
+}
+
+.prod2Child1 .pricecolor{
+    font-size: 82px;
+}
+
+.prod2Child1 p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.prod3Child1 h2{
+    font-size: 80px;
+}
+
+.prod3Child1 .pricecolor{
+    font-size: 82px;
+}
+
+.prod3Child1 p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.prod4Child1 h2{
+    font-size: 80px;
+}
+
+.prod4Child1 .pricecolor{
+    font-size: 82px;
+}
+
+.prod4Child1 p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.inp1{
+   font-size: 80px;
+   border: 2px solid black;
+}
+.btn1{
+    width: 200px;
+    height: 105px;
+    font-size: 80px;
+}
+
+.prod1Child2{
+    margin-top: 100px;
+    margin-left: -240px;
+}
+
+
+.inp2{
+    font-size: 80px;
+    border: 2px solid black;
+ }
+ .btn2{
+     width: 200px;
+     height: 105px;
+     font-size: 80px;
+ }
+ 
+ .prod2Child2{
+     margin-top: 100px;
+     margin-left: -200px;
+ }
+
+
+ .inp3{
+    font-size: 80px;
+    border: 2px solid black;
+ }
+ .btn3{
+     width: 200px;
+     height: 105px;
+     font-size: 80px;
+ }
+ 
+ .prod3Child2{
+     margin-top: 100px;
+     margin-left: -130px;
+ }
+
+
+
+ .inp4{
+    font-size: 80px;
+    border: 2px solid black;
+ }
+ .btn4{
+     width: 200px;
+     height: 105px;
+     font-size: 80px;
+ }
+ 
+ .prod4Child2{
+     margin-top: 100px;
+     margin-left: -210px;
+ }
+
+
+ label{
+    font-size: 70px;
+ }
+
+
+ .back{
+    background: rgba(0, 0, 0, 0.75);
+    height: 10000vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+}
+ .error{
+    width: 1100px;
+    height: 450px;
+    margin-left: 80px;
+ }
+
+ .error .mapname
+ {
+    font-size: 90px;
+ }
+
+ .error .mapprice{
+    font-size: 70px;
+ }
+
+ .error .mapquantity
+ {
+    font-size: 60px ;
+    margin-left: 40px;
+ }
+
+ .error button{
+    width: 270px;
+    height: 95px;
+    font-size: 70px;
+    margin-left: 500px;
+ }
+ .TOTAL{
+    width:1100px;
+    height:450px;
+    margin-left: 80px;
+ }
+
+ .TOTAL button{
+    width: 270px;
+    height: 95px;
+    font-size: 70px;
+    margin-left: 400px;
+ }
+
+ .TOTAL h2{
+    font-size: 90px;
+ }
+}
